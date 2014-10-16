@@ -1,0 +1,4 @@
+.text {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; line-height: normal; color: #FFFFFF; text-align: justify}
+.head {  font-family: Geneva, Arial, Helvetica, san-serif; font-size: 14px; font-weight: bold; color: #FFFFFF;FILTER: DropShadow(Color=white, OffX=5, OffY=-2, Positive=1);FILTER: Glow(Strength=2, Color=#333377)}
+.Ltext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; line-height: normal; color: #FFFFFF; text-align: left;font-weight:none;}
+.Rtext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; line-height: normal; color: #FFFFFF; text-align: right;font-weight:none;}

@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>dur? RUD! doof... </title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="stylesheet.css" type="text/css">
+</head>
+
+<body bgcolor="#999999" text="#000000" link="#FFFFFF" vlink="#FFFFFF" alink="#FF6666" background="textures/d30_2083.s" topmargin="32">
+<table width="791" style="border:1px solid #000000" align="center" height="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="bottom"> 
+    <td height="50" colspan="5" background="topheader.jpg"><a href="http://www.e3-r.com/e3r.shtml"><img src="topheader.jpg" width="800" height="50" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="314" bgcolor="#FF0000"> 
+      <!--#include virtual="dRrnewsfront.txt" -->
+    </td>
+    <td valign="top" width="1" background="dots.gif">&nbsp;</td>
+    <td valign="top" width="245" bgcolor="#FF0000"><img src="dRrninterface.jpg" width="245" height="40"></td>
+    <td valign="top" width="1" background="dots.gif">&nbsp;</td>
+    <td valign="top" width="245" bgcolor="#FF0000" class="Ltext"><img src="mnucontrolheader.jpg" height="40" width="240"><br>
+      <!--#include virtual="mnu_right.txt" -->
+    </td>
+  </tr>
+</table>
+<br>
+<table width="800" style="border:1px solid #000000" align="center" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="bottom"> 
+    <td class="text" bgcolor="#ff0000">
+      <div align="center">&copy; 1999, 2000, 2001, 2002. Joseph Burdick.</div>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

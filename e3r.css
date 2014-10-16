@@ -1,0 +1,87 @@
+/* overall page body */
+body
+{
+	margin: 0 0 0 0;
+/*	background-image: url("i2/bg.gif"); */
+	background-color: #fff;
+}
+
+blockquote
+{
+	border-width: 1pt;
+	border-style: solid;
+	border-color: #820000 ;
+	padding: 5pt 5pt 5pt 5pt;
+}
+
+table.entry, table.heading, table.menusection, table.menuheading
+{
+	border-width: 1pt;
+	border-style: solid;
+	border-color: #248 ;
+}
+
+table.entry
+{
+/*	background-image: url("images/lstone.jpg"); */
+/*	background-image: url("images/ebg.gif"); */
+	background-color: #fff;
+	margin: 0pt 5pt 10pt 0pt;
+}
+
+table.menusection
+{
+/*	background-image: url("images/ebg.gif"); */
+	background-color: #fff;
+/*	background-image: url("images/lstone.jpg"); */
+	margin: 0pt 0pt 10pt 5pt;
+	width: 120pt;
+}
+
+table.heading, table.menuheading
+{
+	padding: 3pt 10pt 3pt 10pt;
+}
+
+td.post, td.entry, td.heading, td.menusection, td.menuheading, td.menubody
+{
+	font-weight: normal;
+	font-size: .9em;
+	color: #000;
+}
+
+td.post, td.entry, td.menusection,  td.menubody
+{
+	text-align:left;
+	padding: 10pt 10pt 10pt 10pt;
+}
+
+td.menubody { text-align: right; }
+
+td.heading, td.menuheading
+{
+	font-weight: bold;
+	text-align:right;
+	color: #fff;
+	font-size: 1.2em;
+	background-color: #820000;
+}
+
+textarea { background-color: #fffbf8 ; }
+
+input { 
+	height: 1.7em; 
+	background-color: #fffbf8
+}
+
+table, tr, td, th { font-size: inherit; }
+
+a
+{
+	padding: 1pt 1pt 1pt 1pt;
+	font-size: 1.1em;
+	text-decoration: none;
+	font-weight: bold;
+	color: #248 ;
+}
+

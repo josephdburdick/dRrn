@@ -1,0 +1,104 @@
+<define-tag index-entry endtag=required>
+<!-- entry -->
+      <table width="98%" border="0" cellpadding="0" align="center">
+%body
+      </table>
+      <!-- <img src="/m/endpost.jpg" height="10" align="right"> -->
+<!-- /entry -->
+</define-tag>
+
+<define-tag entry endtag=required>
+<!-- entry -->
+      <table width="98%" border="0" cellpadding="0" align="center">
+%body
+      </table>
+<!-- /entry -->
+</define-tag>
+
+<define-tag heading endtag=required>
+    <!-- heading -->
+<tr> 
+          <td valign="top" colspan="2" height="2" background="/m/dots.gif"></td>
+        </tr>
+        <tr bgcolor="#CC0000"> 
+          <td class="text" valign="top" colspan="2"><b>
+%body
+</b></td>
+        </tr>
+    <!-- /heading -->
+</define-tag>
+
+<define-tag post endtag=required>
+    <!-- post -->
+<tr> 
+          <td valign="top" colspan="2" height="2" background="/m/dots.gif"></td>
+        </tr>
+
+        <tr> 
+          <td class="text" valign="top" colspan="2">%body</td>
+        </tr>
+    <!-- /post -->
+</define-tag>
+
+<define-tag time endtag=required>
+<tr> 
+          <td valign="top" colspan="2" class="text">
+%body
+</td>
+        </tr>
+
+</define-tag>
+
+<define-tag date>
+<preserve date number>
+<set-var %attributes>
+<tr> 
+          <td class="text" valign="top"> <span class="head"> <font color="#CC0000"> 
+            <get-var date></font> </span></td>
+          <td class="text" valign="top"> 
+            <div align="right"><span class="head"><get-var number> </span></div>
+          </td>
+        </tr>
+</define-tag>
+
+<define-tag menusection endtag=required>
+<!-- menusection -->
+%body
+<!--      <img src="/m/endmenu.jpg" height="10" align="right"><br> -->
+<!-- /menusection -->
+</define-tag>
+
+
+<define-tag menubody endtag=required>
+    <!-- menubody -->
+<tr> 
+          <td valign="top" colspan="2" height="2" background="/m/dots.gif"></td>
+        </tr>
+
+        <tr> 
+          <td class="text" valign="top" colspan="2">%body</td>
+        </tr>
+    <!-- /menubody -->
+</define-tag>
+
+<define-tag menuheading endtag=required>
+    <!-- menuheading -->
+<tr> 
+          <td valign="top" colspan="2" height="2" background="/m/dots.gif"></td>
+        </tr>
+        <tr bgcolor="#CC0000"> 
+          <td class="text" valign="top" colspan="2"><b>
+%body
+</b></td>
+        </tr>
+    <!-- /menuheading -->
+</define-tag>
+
+<define-tag menu endtag=required>
+<!-- menu -->
+<table width="98%" border="0" cellpadding="0" align="center">
+%body
+      </table>
+<!-- /menu -->
+</define-tag>
+

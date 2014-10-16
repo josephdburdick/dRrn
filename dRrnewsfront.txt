@@ -1,0 +1,73 @@
+<img src="img/0_drrnewsfront.jpg" width="245" height="40"><br>
+      <img src="img/0_staticetc.jpg" width="307" height="15"><br>
+      <table width="98%" border="0" cellpadding="3" style="border:1px solid #660000" align="center">
+        <tr> 
+          <td class="text" height="100%" valign="top" background="img/1_staticnews.jpg"> 
+            <span class="head"> VCU represent! </span><br>
+            yes yes it's true. Joe has made it into college. the only thing holding 
+            me back now is Algebra 2; and even that...i have a nice grade now. 
+            But you all probably read all about it in the E3RML. what's that? 
+            not signed up? you loser! go do it!</td>
+        </tr>
+      </table>
+      <img src="img/0_dailylog.jpg" width="307" height="15"><br>
+      <table width="98%" border="0" cellpadding="0" align="center">
+        <tr> 
+          <td class="text" valign="top"> <span class="head"> <font color="#CC0000"> 
+            20020422</font> </span></td>
+          <td class="text" valign="top"> 
+            <div align="right"><span class="head">0000002 </span></div>
+          </td>
+        </tr>
+        <tr> 
+          <td valign="top" colspan="2" height="2" background="dots.gif"></td>
+        </tr>
+        <tr bgcolor="#CC0000"> 
+          <td class="text" valign="top" colspan="2"><b>still working on the new 
+            version M</b></td>
+        </tr>
+        <tr> 
+          <td valign="top" colspan="2" height="2" background="dots.gif"></td>
+        </tr>
+        <tr> 
+          <td class="text" valign="top" colspan="2"> man, i hope this all works out. my computer is extra slow now because i have windows XP. so far it hasnt crashed on me but sometimes i wonder if its worth the lag.</td>
+        </tr>
+        <tr> 
+          <td valign="top" colspan="2" class="text"> ++&nbsp;&nbsp;&nbsp;posted 
+            by <a href="mailto:Joe@e3-r.com?subject=RE:%7B%7Bpostnumber%7D%7D">Joe</a> 
+            @ 3:40pm</td>
+        </tr>
+      </table>
+      <img src="img/endpost.jpg" height="10"><br>
+      <table width="98%" border="0" cellpadding="0" align="center">
+        <tr> 
+          <td class="text" valign="top"> <span class="head"> <font color="#CC0000"> 
+            20020421</font> </span></td>
+          <td class="text" valign="top"> 
+            <div align="right"><span class="head">0000001 </span></div>
+          </td>
+        </tr>
+        <tr> 
+          <td valign="top" colspan="2" height="2" background="dots.gif"></td>
+        </tr>
+        <tr bgcolor="#CC0000"> 
+          <td class="text" valign="top" colspan="2"><b>You all need to sign up 
+            for the E3RML</b></td>
+        </tr>
+        <tr> 
+          <td valign="top" colspan="2" height="2" background="dots.gif"></td>
+        </tr>
+        <tr> 
+          <td class="text" valign="top" colspan="2"> for only the worst of Joe's 
+            posting ever, you need to sign up for <b>THE ELECTRONIC THIRD MAILING 
+            LIST</b> (E3RML). because it is a nonpublic form of media, Joe is 
+            able to expand his abilities on what he wants you to hear and exactly 
+            how he wants you to hear it.</td>
+        </tr>
+        <tr> 
+          <td valign="top" colspan="2" class="text"> ++&nbsp;&nbsp;&nbsp;posted 
+            by <a href="mailto:Joe@e3-r.com?subject=RE:%7B%7Bpostnumber%7D%7D">Joe</a> 
+            @ 11:33pm</td>
+        </tr>
+      </table>
+      <img src="img/endpost.jpg" height="10" align="right">

@@ -1,0 +1,264 @@
+<img src="http://www.e3-r.com/e3r/img/SSIcontent.jpg"><br>
+      <table width="98%" border="0" cellpadding="0" align="center">
+        <tr> 
+          <td class="text" valign="top"> <b><img src="http://www.e3-r.com/e3r/img/mnu_internal.jpg" height="15" width="245"><br>
+            1.</b> <a href="http://www.e3-r.com/index.html">splash page</a><br>
+            <font color="#990000">a.)</font> <a href="mailto:joe@e3-r.com?subject=here joe, here's a cool splash to put up!&body=i know it's not as good as most of your stuff but gimme some credit..."> submit</a> a splash<br>
+            <font color="#990000">b.)</font> archives (coming soon)</td></tr><tr> 
+          <td valign="top" height="2" background="/m/dots.gif"></td>
+        </tr><tr><td valign="top" class="Ltext">
+<b>2.</b> top news stories
+             
+  <!-- Start Of Moreover.com News Javascript Code -->
+  
+	<style type='text/css'>
+
+	.morehl {
+		font-family: Verdana, geneva, arial, sans-serif !important;
+		font-size: 11px !important;
+		color: #FFFFFF !important;
+		font-weight: normal !important;
+		font-style: normal !important;
+		text-decoration: underline !important;
+	}	
+	
+	A:link.morehl, A:vlink.morehl, A:alink.morehl {
+		color: #FFFFFF !important;
+	}
+	
+	.moresrc {
+		font-family: Arial, geneva, sans-serif !important;
+		font-size: 10px !important;
+		color: #cc0000 !important;
+		font-weight: bold !important;
+		font-style: normal !important;
+		text-decoration: none !important;
+	}
+	
+	A:link.moresrc, A:vlink.moresrc, A:alink.moresrc {
+		color: #cc0000 !important;
+	}
+	
+	.moreti {
+		font-family: Arial, geneva, sans-serif;
+		font-size: 10px;
+		color: #cc0000;
+		font-weight: bold;
+		font-style: normal;
+		text-decoration: none;
+	}
+	
+	.morehlt {
+		font-family: Verdana, geneva, arial, sans-serif;
+		font-size: 11px;
+		color: #FFFFFF !important;
+		font-weight: bold;
+		font-style: normal;
+		text-decoration: none;
+	}	
+	</style>
+  
+  <SCRIPT LANGUAGE="Javascript">
+  <!--
+  // the array global_article is used to allow multiple categories
+  var global_article = new Array();
+  var global_article_counter = 0;
+  var article = null;
+  var early_exit = true;
+  var moreover_text = 0;
+  
+  function load_wizard()
+    {
+    
+    var newwin = window.open("","clone","resizable,scrollbars");
+    document.forms.moreover_clone.submit();
+    return true;
+    }
+  // -->
+  
+  </SCRIPT>
+  <SCRIPT LANGUAGE="Javascript" SRC="http://p.moreover.com/cgi-local/page?c=Top%20stories&o=js&n=5">
+  </SCRIPT>
+  <SCRIPT LANGUAGE="Javascript">
+  <!--
+  // load global_article array with articles from category
+  if (article != null && (article.length > 0))
+    {
+    early_exit = false;
+    for (var article_counter = 0; article_counter < article.length; article_counter++)
+      {
+      global_article[global_article_counter] = article[article_counter];
+      global_article[global_article_counter].url += "&w=2144834";
+      
+      global_article[global_article_counter].url += "' TARGET='_blank";
+      global_article[global_article_counter].document_url += "' TARGET='_blank";
+      global_article_counter++;
+      }
+    }
+  // -->
+  </SCRIPT>
+  <SCRIPT LANGUAGE="Javascript">
+  <!--
+  if (global_article.length == 0)
+      {
+      if (early_exit)
+        {
+        document.write("<CENTER>Please reload this page to view the headlines</CENTER>");
+        }
+      else
+        {
+        document.write("<CENTER>Sorry, no articles matched your search criteria</CENTER>");
+        early_exit = true;
+        }
+      }
+  // -->
+  </SCRIPT>
+  <table cellpadding=4 cellspacing=0 border=0 width='100%'><tr bgcolor='#FF0000'><td class="Ltext"><br><ol type="a" style="margins: 0 0 0 0;font-family: verdana;font-size: 11px;color: #cc0000;font-weight: bold;font-style: normal;text-decoration: none;">
+  
+  <SCRIPT LANGUAGE="Javascript">
+  <!--
+  if (!early_exit)
+  {
+  var wizard_brand			= "moreover";
+  var webfeed_heading 			= "Top stories";
+  var width 				= "245";
+  var numberofarticles 			=  global_article.length;
+  var cluster_border 			= "0";
+  var time_display 			= "Yes";
+  var cell_spacing 			= "0";
+  var cell_padding 			= "1";
+  var time 					=  new Array(global_article.length);
+ 
+  
+  // Start loop for articles
+  for (var counter=0; counter < numberofarticles; counter++)
+    {
+	
+	if ((counter == (global_article.length - 1)) && moreover_text == 1) 
+      {  
+      time_display = "No";
+      }
+	
+	// Print out the headline
+    document.write("<li><a target='_blank' href='"+global_article[counter].url+"' class='morehl'>");
+    document.write(global_article[counter].headline_text+"...</a><br>");
+	
+    
+      // Print out the source
+        if ((counter != (global_article.length - 1)) || moreover_text != 1)
+        {
+		
+		document.write("<A HREF='"+global_article[counter].document_url+"' + class='moresrc'>");
+        document.write(global_article[counter].source+"</A>");
+        
+		}
+    
+	
+    // Print out reg/sub/prem if appropriate
+    if (global_article[counter].access_status == "sub" || global_article[counter].access_status == "reg" || global_article[counter].access_status == "prem")
+      {
+      document.write("<span class='moreti'>&nbsp;</span><A HREF='"+global_article[counter].access_registration+"' class='moresrc'>");
+ 	  document.write(global_article[counter].access_status+"</A>");
+      }
+	  
+    // Print out the harvest time
+    if (time_display == "Yes")
+      {
+      // Make a new date object
+      time[counter] = new Date(global_article[counter].harvest_time);
+      time[counter].setHours(time[counter].getHours() - (time[counter].getTimezoneOffset() / 60 ));
+	  document.write("<span class='moreti'> &nbsp;"+time[counter].toString()+"</span>");
+      } 
+    else
+      {
+      document.write("");
+      }
+
+    } // End of article loop
+  
+
+  // Start of clone button code //
+  // NOTE: DO NOT REMOVE any of the code in this section //
+  document.write("<FORM METHOD='POST' ACTION='http://www.moreover.com/cgi-local/wizard_welcome.pl' target='clone' name='moreover_clone'>");
+  document.write("<INPUT TYPE='hidden' NAME='parent_code' VALUE='2144834'>");
+  document.write("<INPUT TYPE='hidden' NAME='clone_system' VALUE='c'>");
+  document.write("<INPUT TYPE='hidden' NAME='system' VALUE='c'>");
+  document.write("<INPUT TYPE='hidden' NAME='heading_font_size' VALUE=''><INPUT TYPE='hidden' NAME='webfeed_heading' VALUE='Top stories'>")
+  document.write("<INPUT TYPE='hidden' NAME='cluster_width' VALUE='200'><INPUT TYPE='hidden' NAME='time_display' VALUE='Yes'>")
+  document.write("<INPUT TYPE='hidden' NAME='cluster_cellspacing' VALUE='0'><INPUT TYPE='hidden' NAME='number_of_headlines' VALUE='5'>")
+  document.write("<INPUT TYPE='hidden' NAME='source_time_fgcolor' VALUE='cc0000'><INPUT TYPE='hidden' NAME='search_keywords' VALUE=''>")
+  document.write("<INPUT TYPE='hidden' NAME='source_time_font_size' VALUE='10'><INPUT TYPE='hidden' NAME='headline_italic' VALUE='false'>")
+  document.write("<INPUT TYPE='hidden' NAME='source_time_italic' VALUE='false'><INPUT TYPE='hidden' NAME='headline_bold' VALUE='false'>")
+  document.write("<INPUT TYPE='hidden' NAME='source_time_bold' VALUE='true'><INPUT TYPE='hidden' NAME='headline_bgcolor' VALUE='FF0000'>")
+  document.write("<INPUT TYPE='hidden' NAME='cluster_name' VALUE='c=Top%20stories&o=js'><INPUT TYPE='hidden' NAME='source_time_underline' VALUE='false'>")
+  document.write("<INPUT TYPE='hidden' NAME='headline_fgcolor' VALUE='FFFFFF'><INPUT TYPE='hidden' NAME='heading_display' VALUE='Yes'>")
+  document.write("<INPUT TYPE='hidden' NAME='headline_font_size' VALUE='11'><INPUT TYPE='hidden' NAME='headline_font' VALUE='Verdana, geneva, arial, sans-serif'>")
+  document.write("<INPUT TYPE='hidden' NAME='source_time_font' VALUE='Arial, geneva, sans-serif'><INPUT TYPE='hidden' NAME='wizard_brand' VALUE='moreover'>")
+  document.write("<INPUT TYPE='hidden' NAME='cluster_cellpadding' VALUE='1'><INPUT TYPE='hidden' NAME='cluster_layout' VALUE='&nbsp;'>")
+  document.write("<INPUT TYPE='hidden' NAME='headline_underline' VALUE='true'><INPUT TYPE='hidden' NAME='cluster_border' VALUE='0'>")
+
+  document.write("</FORM>");
+  // End of clone button code //
+
+  // ************************************************************************************
+  // This code is subject to the copyright and warranty restrictions detailed at 
+  // http://www.moreover.com/wizard_copyright.html
+  // Copyright 2000 Moreover.com Inc. All rights reserved.
+  // *************************************************************************************
+  } 
+  // -->
+  </SCRIPT>
+  </ol></td></tr></table><!-- End Of Moreover.com News Javascript Code -->
+<a href="http://www.e3-r.com/e3r/e3r_news.shtml"></u>more news...</a><font class="text">
+	    <b><br><img src="http://www.e3-r.com/e3r/img/E3RML.jpg"><br>
+            3</b>. <a href="htt://e3-r.com/cgi-bin/mojo/mojo.cgi" target="_blank">E3RML</a> 
+            get Joe's posts via e-mail!<br>
+            <b>what is the E3RML?</b> this would be the ever so great electronic 
+            third mailing list. it is a nonpublic form of posting, therefore less 
+            rules are applied. you may post in response to messages sent out by 
+            the webmaster or start topics yourself. no spam, no bull, just straight 
+            up talk by the webmaster himself and the readers. 
+            <form action="http://e3-r.com/cgi-bin/mojo/mojo.cgi" method=POST style="margins:0,0,0,0"><center>
+              
+                <input type="hidden" name="flavor" value="subscribe">
+                <input type="text" name="email" value="you@domain.com" size="20" style="border:1px solid #990000;background:FF0000;font-family:verdana; font-size:10px; color:FFFFFF;">
+                <input type="hidden" name="list" value="[_E3RML_]">
+                <input type="submit" value="X" style="border:1px solid #990000;background:FF0000;font-family:verdana; font-size:10px; color:FFFFFF;">
+              
+            </center></form>
+*note: you must confirm with the submitted email 
+              address.<br>
+            <img src="http://www.e3-r.com/e3r/img/endmnu.jpg" width="245" height="10"><br>
+            
+            <b>4</b>. <a href="http://www.e3-r.com">Machine.cgi</a><br>
+            <b>a different version of E3R?</b> created and maintained by Blaise 
+            of the DevlogicSymbiont, this is the all compliant version of E3R. 
+            view it on any operating system with any internet browser with the 
+            same results. with it's fast load up time, it's no wonder people choose 
+            Machine.cgi over some boggy E3R layouts.<br>
+            <img src="http://www.e3-r.com/e3r/img/endmnu.jpg" width="245" height="10"><br>
+            </td></tr></table>
+<table width="98%" border="0" cellpadding="0" align="center">
+        <tr> 
+          <td class="Ltext" valign="top">
+            <img src="http://www.e3-r.com/e3r/img/linkbin.jpg"><br>
+            <b>1</b>. the official EXPLODINGBOY website<br>
+              <a href="http://explodingboy.e3-r.com"><b>click here to view!</b></a> 
+              keep up with one of the best, experimental emo punk bands around. 
+              they're listeners have spread all the way from chesapeake to pittsburg 
+              to london. the shows are always inexpensive. click for details!<br>
+              <br>
+            webmaster: Joseph Burdick<br>
+            <img src="http://www.e3-r.com/e3r/img/endmnu.jpg" width="245" height="10"><br>
+            <b>2</b>. <a href="http://webhost.drrobin.yi.org">dRrn</a> - <i>dynamically 
+            regenerated reconfigurable newsfront.</i><br>
+            <b>a brand new posting engine?? </b>built by the designated DevlogicSymbiont 
+            programmer as well as the popular Machine.cgi, dRrn is limitless (mostly 
+            because he programs what he wants). dRrn will power E3R text transfer 
+            from here on out. created with incredible features such as contibutor 
+            ignoring, automatic login, and configurable archiving techniques- 
+            its perfect for E3Rnews. <br>
+            <br>
+            programmer/webmaster: <a href="mailto:blaise@e3-r.com">Blaise</a></font></td>
+        </tr>
+      </table>

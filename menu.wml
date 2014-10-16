@@ -1,0 +1,57 @@
+#include "tagdefs.wml"
+
+{#MENU#:
+
+
+<menu>
+<:
+require "lbox.pl";
+require "postcount.pl";
+
+:>
+
+<menusection>
+<menuheading>Recent Posts</menuheading>
+<menubody>
+<ol><br>
+<:
+
+    require "recent.pl";
+
+:>
+</ol>
+</menubody>
+</menusection>
+
+<menusection>
+<menuheading>New User Sign Up?</menuheading>
+<menubody>
+Currently with the new E3R version M, all accounts are in <u>free</u> mode; which means you don't need to fill out an application and wait an approximate week to get a yes or no from the webmaster. Now, you can go through the New User sign up form and within minutes you have an account with E3R. You will recieve a USER level account. Judgement will be instantly put into affect by the DevlogicSymbiont on whether or not you keep your account, how long you keep it, etc...<br><br>
+</menubody>
+</menusection>
+
+<menusection>
+<menuheading>What is the DevlogicSymbiont?</menuheading>
+<menubody>
+Webmaster JB chose four people in the state of Virginia to assist him and those four people agreed. Joe called forth an aristocratic democracy and dubbed it the DevlogicSymbiont (DLS). These people each have their own special function in the group but amongst their individual duties they vote on accounts, design, and external functions. The DevlogicSymbiont have a STAFF level account and have the ability to edit ANON/CONTRIBUTOR level posts, USER level posts, and their own level. They can delete your account on the spot if malicious activity is declared. Us five run the show, so keep us happy. Currently, ever member of DLS is male so if you could send us nice pretty girls pictures we'd be much oblidged.<br><br>
+</menubody>
+</menusection>
+
+<menusection>
+<menuheading>Who is in the DevlogicSymbiont?</menuheading>
+<menubody>
+Four trusted residents of Virginia. These are members of the elite E3R team, DLS.<br><br>
+<font color=#990000>a.)</font> JB: Joseph Burdick, webmaster.<br>
+<font color=#990000>b.)</font> Blaise: Robin Kirkman, programmer.<br>
+<font color=#990000>c.)</font> Rex-VII: Dean Johnson, servers.<br>
+<font color=#990000>d.)</font> Messier: Matt Messier, critic.<br>
+<font color=#990000>e.)</font> CoW: Richard Williams, designer.<br><br>
+</menubody>
+</menusection>
+</menu>
+
+
+
+:##}
+
+
